@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiApp1.MAIN.Rozcestnik.Testy.Deprese.D9"
+             Title="D9">
+    <VerticalStackLayout>
+        <Label 
+            Text="Vyberte prohlášení, které Vás nejlépe charakterizuje v posledním týdnu včetně dneška:"
+            Margin="9"
+            FontAttributes="Bold"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+
+        <StackLayout Margin="20,15,20,25">
+            <RadioButton
+            x:Name="Rb1"
+            IsChecked="True"
+            Content="Nepřemýšlím o sebevraždě."
+            CheckedChanged="Rb1_CheckedChanged"
+                
+        />
+
+            <RadioButton
+            x:Name="Rb2"
+            Content="Někdy pomýšlím na sebevraždu."
+            CheckedChanged="Rb2_CheckedChanged"
+            
+        />
+
+            <RadioButton
+            x:Name="Rb3"
+            Content="Často přemýšlím o sebevraždě."
+            CheckedChanged="Rb3_CheckedChanged"
+        />
+
+            <RadioButton
+            x:Name="Rb4"
+            Content="Kdybych měl(a) příležitost, tak bych si vzal(a) život."
+            CheckedChanged="Rb4_CheckedChanged"
+        />
+        </StackLayout>
+
+        <Button
+                x:Name="PreviousBtn"
+                Text="Předchozí"
+                Clicked="PreviousBtn_Clicked"
+                VerticalOptions ="Fill"
+                 />
+
+        <Button
+                x:Name="NextBtn"
+                Text="Následující"
+                Clicked="NextBtn_Clicked"
+                VerticalOptions ="Fill"            
+                />
+    </VerticalStackLayout>
+</ContentPage>

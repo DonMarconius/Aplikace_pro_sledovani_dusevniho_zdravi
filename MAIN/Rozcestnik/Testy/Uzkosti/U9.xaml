@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiApp1.MAIN.Rozcestnik.Testy.Uzkosti.U9"
+             Title="U9">
+    <VerticalStackLayout>
+        <Label 
+            Text="Zděšení"
+            FontSize="20"
+            Margin="9"
+            FontAttributes="Bold"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+
+        <StackLayout Margin="20,15,20,25">
+            <RadioButton
+            x:Name="Rb1"
+            IsChecked="True"
+            Content="Vůbec"
+            CheckedChanged="Rb1_CheckedChanged"
+                
+        />
+
+            <RadioButton
+            x:Name="Rb2"
+            Content="Mírně (Moc mě to nerušilo)"
+            CheckedChanged="Rb2_CheckedChanged"
+            
+        />
+
+            <RadioButton
+            x:Name="Rb3"
+            Content="Středně (Bylo to nepříjemné, ale dalo se to vydržet)"
+            CheckedChanged="Rb3_CheckedChanged"
+        />
+
+            <RadioButton
+            x:Name="Rb4"
+            Content="Vážně (Stěží jsem to vydržel(a))"
+            CheckedChanged="Rb4_CheckedChanged"
+        />
+        </StackLayout>
+
+        <Label 
+            Text="Poznámka"
+            Margin="6"
+            HorizontalOptions="Start" 
+            FontAttributes="Bold"/>
+
+        <Label 
+            Text="Přečtěte si pozorně každou položku dotazníku. Vyberte z možností pod otázkou, do jaké míry Vás příznaky obtěžovaly během minulého týdne včetně dneška."
+            FontAttributes="Italic"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" 
+            Margin="6"
+            Opacity="0.6"/>
+
+
+        <Button
+                x:Name="PreviousBtn"
+                Text="Předchozí"
+                Clicked="PreviousBtn_Clicked"
+                VerticalOptions ="Fill"
+                 />
+
+        <Button
+                x:Name="NextBtn"
+                Text="Následující"
+                Clicked="NextBtn_Clicked"
+                VerticalOptions ="Fill"            
+                />
+
+    </VerticalStackLayout>
+</ContentPage>

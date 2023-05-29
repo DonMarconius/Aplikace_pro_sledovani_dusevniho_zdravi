@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiApp1.MAIN.Rozcestnik.Testy.Deprese.D_Vysledky"
+             Title="Výsledky">
+    <VerticalStackLayout>
+        <Label 
+            Text="Váš výsledek:"
+            FontSize="Large"
+            Margin="9"
+            FontAttributes="Bold"
+            VerticalOptions="Center"
+            
+            HorizontalOptions="Center" />
+
+        <Label
+            x:Name="VysledekLabel"
+            Text="{Binding Vysledek}"
+            FontSize="Large"
+            Margin="0"
+            FontAttributes="Bold"
+            VerticalOptions="Center"
+            HorizontalOptions="Center" />
+
+        <Label
+            x:Name="OVysledcich1"
+            Text="O výsledcích:"
+            FontSize="20"
+            Margin="15"
+            FontAttributes="Bold"
+         
+            
+            VerticalOptions="Center"
+            HorizontalOptions="Center"
+            />
+
+        <Label
+            x:Name="OVysledcich2"
+            Text="BECKŮV INVENTÁŘ DEPRESE (21-položkový dotazník, určení ke zjištění míry deprese)."   
+            FontAttributes="Bold"
+            
+            Margin="15"
+            />
+
+        <Label
+            x:Name="BID_Popis"
+            Margin="15"
+            Text="Pacient vybere v každé položce (1 až 21) možnost, které nejvíce odpovídá jeho současným pocitům, myšlenkám, stavu apod. Je možno vyplňovat pravidelně (např. dvakrát týdně), aby bylo možno sledovat depresi."
+            />
+
+        <Label
+            x:Name="BID_HodnoceniHeader"
+            Margin="15"
+            Text="Hodnocení:"
+            FontAttributes="Bold"  
+            />
+
+        <Label
+            x:Name="BIU_Hodnoceni"
+            Text="0 - 13       minimální nebo žádná deprese"
+            Margin="15"
+            />
+
+        <Label
+            x:Name="BIU_Hodnoceni2"
+            Text="14 - 19     mírná deprese"
+            Margin="15"
+            />
+
+        <Label
+            x:Name="BIU_Hodnoceni3"
+            Text="20 - 28     střední deprese"
+            Margin="15"
+            />
+        <Label
+            x:Name="BIU_Hodnoceni4"
+            Text="29 - 63     těžká deprese."
+            Margin="15"
+            />
+        
+        <Button
+                x:Name="UvodBtn"
+                Text="Zpět na úvodní stranu"
+                Clicked="UvodBtn_Clicked"
+                HorizontalOptions="Fill"
+                 />
+    </VerticalStackLayout>
+</ContentPage>

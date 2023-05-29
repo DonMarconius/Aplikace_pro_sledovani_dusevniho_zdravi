@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiApp1.MAIN.Rozcestnik.Testy.Uzkosti.UU"
+             Title="UU">
+    <VerticalStackLayout>
+        <Label 
+            Text="O dotazníku"
+            FontSize="20"
+            Margin="9"
+            FontAttributes="Bold"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+
+        <Label 
+            Text="Dotazník obsahuje skupiny různých tvrzení. Nejprve si v každé skupině přečtěte všechna tvrzení, a pak si vyberte to, které Vás nejlépe charakterizuje v posledním týdnu (včetně dneška). Pokud Vám vyhovuje více tvrzení (popřípadě Vám nevyhovuje žádné), zatrhněte to, které se blíží nejvíce."
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" 
+            Margin="9"/>
+
+        <Button
+            
+                x:Name="PreviousBtn"
+                Text="Předchozí"
+                Clicked="PreviousBtn_Clicked"
+                VerticalOptions ="Fill"
+                 />
+
+        <Button
+                x:Name="NextBtn"
+                Text="Následující"
+                Clicked="NextBtn_Clicked"
+                VerticalOptions ="Fill"            
+                />
+    </VerticalStackLayout>
+</ContentPage>
