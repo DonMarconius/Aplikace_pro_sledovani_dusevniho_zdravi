@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="MauiApp1.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:MauiApp1"
+    Shell.FlyoutBehavior="Disabled">
+
+
+    <ShellContent
+        Title="Home"
+        ContentTemplate="{DataTemplate local:MAIN.MainPage}"
+        Route="MAIN.MainPage" />
+    
+    <ShellContent
+        Title="Home"
+        ContentTemplate="{DataTemplate local:MAIN.Rozcestnik.Testy.Rozcestnik_testy}"
+        Route="Main.Rozcestnik.Testy.Rozcestnik_testy" />
+
+    
+
+    <ShellContent
+        Title="Home"
+        ContentTemplate="{DataTemplate local:MAIN.Rozcestnik.Testy.Deprese.DU}"
+        Route="Main.Rozcestnik.Testy.Deprese" />
+
+    <ShellContent
+        Title="Home"
+        ContentTemplate="{DataTemplate local:MAIN.Rozcestnik.Testy.Deprese.D1}"
+        Route="Main.Rozcestnik.Testy.Deprese.D1" />
+
+    <ShellContent
+        Title="Home"
+        ContentTemplate="{DataTemplate local:MAIN.Rozcestnik.Testy.Deprese.D2}"
+        Route="Main.Rozcestnik.Testy.Deprese.D2" />
+
+    <ShellContent
+        Title="Home"
+        ContentTemplate="{DataTemplate local:MAIN.Rozcestnik.Testy.Deprese.D3}"
+        Route="Main.Rozcestnik.Testy.Deprese.D3" />
+
+    <ShellContent
+        Title="Home"
+        ContentTemplate="{DataTemplate local:MAIN.Rozcestnik.Testy.Deprese.D4}"
+        Route="Main.Rozcestnik.Testy.Deprese.D4" />
+
+    <ShellContent
+        Title="Home"
+        ContentTemplate="{DataTemplate local:MAIN.Rozcestnik.Testy.Deprese.D5}"
+        Route="Main.Rozcestnik.Testy.Deprese.D5" />
+
+    <ShellContent
+        Title="Home"
+        ContentTemplate="{DataTemplate local:MAIN.Rozcestnik.Testy.Deprese.D6}"
+        Route="Main.Rozcestnik.Testy.Deprese.D6" />
+
+    <ShellContent
+        Title="Home"
+        ContentTemplate="{DataTemplate local:MAIN.Rozcestnik.Testy.Deprese.D7}"
+        Route="Main.Rozcestnik.Testy.Deprese.D7" />
+
+    <ShellContent
+        Title="Home"
+        ContentTemplate="{DataTemplate local:MAIN.Rozcestnik.Testy.Deprese.D8}"
+        Route="Main.Rozcestnik.Testy.Deprese.D8" />
+
+    <ShellContent
+        Title="Home"
+        ContentTemplate="{DataTemplate local:MAIN.Rozcestnik.Testy.Deprese.D9}"
+        Route="Main.Rozcestnik.Testy.Deprese.D9" />
+
+    <ShellContent
+        Title="Home"
+        ContentTemplate="{DataTemplate local:MAIN.Rozcestnik.Testy.Deprese.D10}"
+        Route="Main.Rozcestnik.Testy.Deprese.D10" />
+
+    <ShellContent
+        Title="Home"
+        ContentTemplate="{DataTemplate local:MAIN.Rozcestnik.Testy.Deprese.D11}"
+        Route="Main.Rozcestnik.Testy.Deprese.D11" />
+
+    <ShellContent
+        Title="Home"
+        ContentTemplate="{DataTemplate local:MAIN.Rozcestnik.Testy.Deprese.D12}"
+        Route="Main.Rozcestnik.Testy.Deprese.D12" />
+
+    <ShellContent
+        Title="Home"
+        ContentTemplate="{DataTemplate local:MAIN.Rozcestnik.Testy.Deprese.D13}"
+        Route="Main.Rozcestnik.Testy.Deprese.D13" />
+
+    <ShellContent
+        Title="Home"
+        ContentTemplate="{DataTemplate local:MAIN.Rozcestnik.Testy.Deprese.D14}"
+        Route="Main.Rozcestnik.Testy.Deprese.D14" />
+
+    <ShellContent
+        Title="Home"
+        ContentTemplate="{DataTemplate local:MAIN.Rozcestnik.Testy.Deprese.D15}"
+        Route="Main.Rozcestnik.Testy.Deprese.D15" />
+
+    <ShellContent
+        Title="Home"
+        ContentTemplate="{DataTemplate local:MAIN.Rozcestnik.Testy.Deprese.D16}"
+        Route="Main.Rozcestnik.Testy.Deprese.D16" />
+
+    <ShellContent
+        Title="Home"
+        ContentTemplate="{DataTemplate local:MAIN.Rozcestnik.Testy.Deprese.D17}"
+        Route="Main.Rozcestnik.Testy.Deprese.D17" />
+
+    <ShellContent
+        Title="Home"
+        ContentTemplate="{DataTemplate local:MAIN.Rozcestnik.Testy.Deprese.D18}"
+        Route="Main.Rozcestnik.Testy.Deprese.D18" />
+
+    <ShellContent
+        Title="Home"
+        ContentTemplate="{DataTemplate local:MAIN.Rozcestnik.Testy.Deprese.D19}"
+        Route="Main.Rozcestnik.Testy.Deprese.D19" />
+
+    <ShellContent
+        Title="Home"
+        ContentTemplate="{DataTemplate local:MAIN.Rozcestnik.Testy.Deprese.D20}"
+        Route="Main.Rozcestnik.Testy.Deprese.D20" />
+
+    <ShellContent
+        Title="Home"
+        ContentTemplate="{DataTemplate local:MAIN.Rozcestnik.Testy.Deprese.D21}"
+        Route="Main.Rozcestnik.Testy.Deprese.D21" />
+
+    <ShellContent
+        Title="Home"
+        ContentTemplate="{DataTemplate local:MAIN.Rozcestnik.Testy.Deprese.D_Vysledky}"
+        Route="Main.Rozcestnik.Testy.Deprese.D_Vysledky" />
+
+
+    <ShellContent
+        Title="Home"
+        ContentTemplate="{DataTemplate local:MAIN.Rozcestnik.Testy.Uzkosti.UU}"
+        Route="Main.Rozcestnik.Testy.Uzkosti.UU" />
+
+    <ShellContent
+        Title="Home"
+        ContentTemplate="{DataTemplate local:MAIN.Rozcestnik.Testy.Uzkosti.U1}"
+        Route="Main.Rozcestnik.Testy.Uzkosti.U1" />
+
+    <ShellContent
+        Title="Home"
+        ContentTemplate="{DataTemplate local:MAIN.Rozcestnik.Testy.Uzkosti.U2}"
+        Route="Main.Rozcestnik.Testy.Uzkosti.U2" />
+
+    <ShellContent
+        Title="Home"
+        ContentTemplate="{DataTemplate local:MAIN.Rozcestnik.Testy.Uzkosti.U3}"
+        Route="Main.Rozcestnik.Testy.Uzkosti.U3" />
+
+    <ShellContent
+        Title="Home"
+        ContentTemplate="{DataTemplate local:MAIN.Rozcestnik.Testy.Uzkosti.U4}"
+        Route="Main.Rozcestnik.Testy.Uzkosti.U4" />
+
+    <ShellContent
+        Title="Home"
+        ContentTemplate="{DataTemplate local:MAIN.Rozcestnik.Testy.Uzkosti.U5}"
+        Route="Main.Rozcestnik.Testy.Uzkosti.U5" />
+
+    <ShellContent
+        Title="Home"
+        ContentTemplate="{DataTemplate local:MAIN.Rozcestnik.Testy.Uzkosti.U6}"
+        Route="Main.Rozcestnik.Testy.Uzkosti.U6" />
+
+    <ShellContent
+        Title="Home"
+        ContentTemplate="{DataTemplate local:MAIN.Rozcestnik.Testy.Uzkosti.U7}"
+        Route="Main.Rozcestnik.Testy.Uzkosti.U7" />
+
+    <ShellContent
+        Title="Home"
+        ContentTemplate="{DataTemplate local:MAIN.Rozcestnik.Testy.Uzkosti.U8}"
+        Route="Main.Rozcestnik.Testy.Uzkosti.U8" />
+
+    <ShellContent
+        Title="Home"
+        ContentTemplate="{DataTemplate local:MAIN.Rozcestnik.Testy.Uzkosti.U9}"
+        Route="Main.Rozcestnik.Testy.Uzkosti.U9" />
+
+    <ShellContent
+        Title="Home"
+        ContentTemplate="{DataTemplate local:MAIN.Rozcestnik.Testy.Uzkosti.U10}"
+        Route="Main.Rozcestnik.Testy.Uzkosti.U10" />
+
+    <ShellContent
+        Title="Home"
+        ContentTemplate="{DataTemplate local:MAIN.Rozcestnik.Testy.Uzkosti.U11}"
+        Route="Main.Rozcestnik.Testy.Uzkosti.U11" />
+
+    <ShellContent
+        Title="Home"
+        ContentTemplate="{DataTemplate local:MAIN.Rozcestnik.Testy.Uzkosti.U12}"
+        Route="Main.Rozcestnik.Testy.Uzkosti.U12" />
+
+    <ShellContent
+        Title="Home"
+        ContentTemplate="{DataTemplate local:MAIN.Rozcestnik.Testy.Uzkosti.U13}"
+        Route="Main.Rozcestnik.Testy.Uzkosti.U13" />
+
+    <ShellContent
+        Title="Home"
+        ContentTemplate="{DataTemplate local:MAIN.Rozcestnik.Testy.Uzkosti.U14}"
+        Route="Main.Rozcestnik.Testy.Uzkosti.U14" />
+
+    <ShellContent
+        Title="Home"
+        ContentTemplate="{DataTemplate local:MAIN.Rozcestnik.Testy.Uzkosti.U15}"
+        Route="Main.Rozcestnik.Testy.Uzkosti.U15" />
+
+    <ShellContent
+        Title="Home"
+        ContentTemplate="{DataTemplate local:MAIN.Rozcestnik.Testy.Uzkosti.U16}"
+        Route="Main.Rozcestnik.Testy.Uzkosti.U16" />
+
+    <ShellContent
+        Title="Home"
+        ContentTemplate="{DataTemplate local:MAIN.Rozcestnik.Testy.Uzkosti.U17}"
+        Route="Main.Rozcestnik.Testy.Uzkosti.U17" />
+
+    <ShellContent
+        Title="Home"
+        ContentTemplate="{DataTemplate local:MAIN.Rozcestnik.Testy.Uzkosti.U18}"
+        Route="Main.Rozcestnik.Testy.Uzkosti.U18" />
+
+    <ShellContent
+        Title="Home"
+        ContentTemplate="{DataTemplate local:MAIN.Rozcestnik.Testy.Uzkosti.U19}"
+        Route="Main.Rozcestnik.Testy.Uzkosti.U19" />
+
+    <ShellContent
+        Title="Home"
+        ContentTemplate="{DataTemplate local:MAIN.Rozcestnik.Testy.Uzkosti.U20}"
+        Route="Main.Rozcestnik.Testy.Uzkosti.U20" />
+
+    <ShellContent
+        Title="Home"
+        ContentTemplate="{DataTemplate local:MAIN.Rozcestnik.Testy.Uzkosti.U21}"
+        Route="Main.Rozcestnik.Testy.Uzkosti.U21" />
+
+    <ShellContent
+        Title="Home"
+        ContentTemplate="{DataTemplate local:MAIN.Rozcestnik.Testy.Uzkosti.U_Vysledky}"
+        Route="Main.Rozcestnik.Testy.Uzkosti.U_Vysledky" />
+</Shell>
